@@ -9,6 +9,9 @@
 		<?php get_template_part( './elements/fp-topheader' ); ?>
 
 
+		<p class="text-center"><img src="<?php echo get_template_directory_uri(), '/assets/img/souzokutop.png'; ?>" alt="広島で相続・遺言のご相談なら山下江法律事務所へ！"></p>
+
+
 		<?php get_template_part( './elements/fp-welcome-mess' ); ?>
 
 
@@ -22,105 +25,66 @@
 			</div>
 			<div class="sidenav--overlay js--sidenav--button"></div>
 			<div class="column small-12 large-8 contents --mt0 --pt0">
-				<section class="contents--section contents--section__flow">
-					<p>
-						<img class="thumbnail" src="<?php echo get_template_directory_uri(), '/assets/img/va.jpg'; ?>" alt="就業中や通勤中の思わぬ事故！私たちは被災者に寄り添い共に解決を目指します。">
-					</p>
-					<h2>発生から解決までの流れ</h2>
-					<div class="box02">
-						<table>
-							<tbody>
-								<tr>
-									<th class="icon1">
-										<img src="<?php echo get_template_directory_uri(), '/assets/img/icon_01.jpg'; ?>">事故発生</th>
-									<td>
-										<p class="text">
-											業務中に事故にあわれたら治療を最優先してください。また、業務中や通勤途中の「交通」事故の場合には、警察や保険会社へも連絡する必要があります。事故発生時の事実関係を把握しておくことも重要です。</p>
-									</td>
-									<td class="box--button">
-										<a href="<?php echo get_page_link( '6349' ), '#1'; ?>" target="_blank" class="button">詳しくはこちら</a>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-						<p class="arrow">
-							<img alt="矢印" height="12" src="<?php echo get_template_directory_uri(), '/assets/img/arrow_flow.jpg'; ?>" width="54" />
-						</p>
-						<table>
-							<tbody>
-								<tr>
-									<th class="icon2">
-										<img src="<?php echo get_template_directory_uri(), '/assets/img/icon_02.jpg'; ?>">労災保険
-										<br> 給付申請</th>
-									<td>
-										<p class="text">
-											事故が起こったら労災保険の給付を受けるために、労働基準監督署へ給付申請をする必要があります。会社が労災の申請に協力してくれない場合は労働基準監督署や専門家にご相談することをお勧めいたします。</p>
-									</td>
-									<td class="box--button">
-										<a href="<?php echo get_page_link( '6349' ), '#2'; ?>" target="_blank" class="button">詳しくはこちら</a>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-						<p class="arrow">
-							<img alt="矢印" height="12" src="<?php echo get_template_directory_uri(), '/assets/img/arrow_flow.jpg'; ?>" width="54" />
-						</p>
-						<table>
-							<tbody>
-								<tr>
-									<th class="icon3">
-										<img src="<?php echo get_template_directory_uri(), '/assets/img/icon_03.jpg'; ?>">会社との
-										<br /> 交渉
-									</th>
-									<td>
-										<p class="text">
-											会社側が提示する賠償金額が明らかに低い場合や、事故の責任を全否定し賠償金の支払いに応じてこない場合があります。弁護士に依頼をしていただくことで、使用者との対等な交渉が可能になります。</p>
-									</td>
-									<td class="box--button">
-										<a href="<?php echo get_page_link( '6349' ), '#3'; ?>" target="_blank" class="button">詳しくはこちら</a>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-						<p class="arrow">
-							<img alt="矢印" height="12" src="<?php echo get_template_directory_uri(), '/assets/img/arrow_flow.jpg'; ?>" width="54" />
-						</p>
-						<table>
-							<tbody>
-								<tr>
-									<th class="icon4">
-										<img src="<?php echo get_template_directory_uri(), '/assets/img/icon_04.jpg'; ?>">裁判
-										<br /> 手続き
-									</th>
-									<td>
-										<p class="text">
-											会社との交渉が成立しない場合には、裁判によって最終的な賠償金額を争うことになります。労災保険では補えない、使用者の安全配慮義務違反や不法行為についても争うことができます。</p>
-									</td>
-									<td class="box--button">
-										<a href="<?php echo get_page_link( '6349' ), '#4'; ?>" target="_blank" class="button">詳しくはこちら</a>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-						<p class="arrow">
-							<img alt="矢印" height="12" src="<?php echo get_template_directory_uri(), '/assets/img/arrow_flow.jpg'; ?>" width="54" />
-						</p>
-						<table>
-							<tbody>
-								<tr>
-									<th class="icon5">
-										<img src="<?php echo get_template_directory_uri(), '/assets/img/icon_05.jpg'; ?>">解決</th>
-									<td>
-										<p class="text">
-											労災に遭われた相談者の適切な賠償金の獲得を目指します。 &nbsp; &nbsp; &nbsp;</p>
-									</td>
-									<td class="box--button">
-										<a href="<?php echo get_page_link( '5483' ); ?>" target="_blank" class="button">詳しくはこちら</a>
-									</td>
-								</tr>
-							</tbody>
-						</table>
+				<section class="contents--section contents--section__pickup">
+					<div class="row text-center">
+						<div class="pickup--background column small-12 medium-6">
+							<h3><img src="<?php echo get_template_directory_uri(), '/assets/img/TtlSDTop2_1.jpg'; ?>" alt="相続の基礎知識"></h3>
+							<ul class="pickup--list text-left">
+								<li><a href="<?php echo get_page_link( '6417' ); ?>"><?php echo get_the_title( '6417' ); ?></a></li>
+								<li><a href="<?php echo get_page_link( '6419' ); ?>"><?php echo get_the_title( '6419' ); ?></a></li>
+								<li><a href="<?php echo get_page_link( '6438' ); ?>"><?php echo get_the_title( '6438' ); ?></a></li>
+								<li><a href="<?php echo get_page_link( '6427' ); ?>"><?php echo get_the_title( '6427' ); ?></a></li>
+								<li><a href="<?php echo get_page_link( '6422' ); ?>"><?php echo get_the_title( '6422' ); ?></a></li>
+							</ul>
+						</div>
+						<div class="pickup--background column small-12 medium-6">
+							<h3><img src="<?php echo get_template_directory_uri(), '/assets/img/TtlSDTop2_2.jpg'; ?>" alt="遺産分割協議"></h3>
+							<ul class="pickup--list text-left">
+								<li><a href="<?php echo get_page_link( '6436' ); ?>"><?php echo get_the_title( '6436' ); ?></a></li>
+								<li><a href="<?php echo get_page_link( '6427' ); ?>"><?php echo get_the_title( '6427' ); ?></a></li>
+								<li><a href="<?php echo get_page_link( '6422' ); ?>"><?php echo get_the_title( '6422' ); ?></a></li>
+								<li><a href="<?php echo get_page_link( '6458' ); ?>"><?php echo get_the_title( '6458' ); ?></a></li>
+							</ul>
+						</div>
+						<div class="pickup--background column small-12 medium-6">
+							<h3><img src="<?php echo get_template_directory_uri(), '/assets/img/TtlSDTop2_3.jpg'; ?>" alt="遺留分・寄与分"></h3>
+							<ul class="pickup--list text-left">
+								<li><a href="<?php echo get_page_link( '6467' ); ?>"><?php echo get_the_title( '6467' ); ?></a></li>
+								<li><a href="<?php echo get_page_link( '6469' ); ?>"><?php echo get_the_title( '6469' ); ?></a></li>
+								<li><a href="<?php echo get_page_link( '6473' ); ?>"><?php echo get_the_title( '6473' ); ?></a></li>
+								<li><a href="<?php echo get_page_link( '6475' ); ?>"><?php echo get_the_title( '6475' ); ?></a></li>
+								<li><a href="<?php echo get_page_link( '6484' ); ?>"><?php echo get_the_title( '6484' ); ?></a></li>
+							</ul>
+						</div>
+						<div class="pickup--background column small-12 medium-6">
+							<h3><img src="<?php echo get_template_directory_uri(), '/assets/img/TtlSDTop2_4.jpg'; ?>" alt="遺言書"></h3>
+							<ul class="pickup--list text-left">
+								<li><a href="<?php echo get_page_link( '6523' ); ?>"><?php echo get_the_title( '6523' ); ?></a></li>
+								<li><a href="<?php echo get_page_link( '6533' ); ?>"><?php echo get_the_title( '6533' ); ?></a></li>
+								<li><a href="<?php echo get_page_link( '6535' ); ?>"><?php echo get_the_title( '6535' ); ?></a></li>
+							</ul>
+						</div>
 					</div>
+					<div class="row">
+						<div class="column small-4 text-center"><a href="<?php echo get_page_link( '6070' ); ?>"><img src="<?php echo get_template_directory_uri(), '/assets/img/ImgTop2.jpg';?>" alt="<?php echo get_the_title( '6070' ); ?>"></a></div>
+						<div class="column small-4 text-center"><a href="<?php echo get_page_link( '5487' ); ?>"><img src="<?php echo get_template_directory_uri(), '/assets/img/ImgTop3.jpg';?>" alt="<?php echo get_the_title( '5487' ); ?>"></a></div>
+						<div class="column small-4 text-center"><a href="<?php echo get_page_link( '5492' ); ?>"><img src="<?php echo get_template_directory_uri(), '/assets/img/ImgTop4.jpg';?>" alt="<?php echo get_the_title( '5492' ); ?>"></a></div>
+					</div>
+				</section>
+
+
+				<section class="contents--section contents--section__point">
+					<h2>山下江法律事務所の相続の３つのポイント</h2>
+					<h3>メリット1 相続手続の専門家が直接お話をお伺いします。</h3>
+					<p>当事務所では、相続手続きのご相談において、専門的な知識を備えたNPO法人相続アドバイザー協議会認定の相続アドバイザー・上級アドバイザーが承ります。</p>
+					<h3>メリット2  相続手続から、相続争いまで、すべてに対応できます。</h3>
+					<p>「争 いはないけど、複雑な相続手続をどう進めて良いか分からない」「自分がしなければならない手続きがどれか分からない」という相談から、「親族ともめてし まったので解決したい」という相談まで、相続に関することなら何でも対応することができます。所内には弁護士の他、相続アドバイザー・上級アドバイザーが 在籍しており、税理士、司法書士、行政書士などとも連携をしていますので、速やかに相続手続きも行うことができます。</p>
+					<h3>メリット3 広島最大級の法律事務所</h3>
+					<p>当事務所は士業事務所に良く見られる個人事務所ではなく、所員総勢38名の広島最大級の法律事務所です。総合力と機動力は地域ナンバーワンと自負しております。実績多数の当法律事務所に、是非ご相談ください。</p>
+					<h3>相続アドバイザー・上級アドバイザーによる相談も、無料で承っています</h3>
+					<p>・弁護士に相談するのは敷居が高い<br>・ちょっとだけ教えてもらいたいことがある<br>と思われる方は、相続アドバイザーにお気軽にお電話ください。</p>
+					<p class="text-center"><img src="<?php echo get_template_directory_uri(), '/assets/img/BgSDTop4.png'; ?>" alt="相続アドバイザーが丁寧にお答えします！"><br>◆チェックリストはこちら☞<a href="<?php echo get_page_link( '6405' ); ?>">相続対策チェック</a></p>
+					<p class="text-center"><a href="https://www.law-yamashita.com/contact" target="_blank"><img src="<?php echo get_template_directory_uri(), '/assets/img/banner_01.png'; ?>" alt="広島の相続・遺言相談は縮景園駅すぐの山下江法律事務所へ"></a></p>
 				</section>
 
 

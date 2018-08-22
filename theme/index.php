@@ -55,8 +55,12 @@ if ( is_archive() || is_single() || is_home() ) {
 						include locate_template( './templates/page.php' );
 
 					} else if ( is_page( 'fee' ) ) {
-						$page_id = '459';
+						$page_id = '3507';
 						include locate_template( './templates/page.php' );
+
+					} else if ( is_page( 'news/column' ) ) {
+						$show_cat = '313';
+						include locate_template( './templates/page--column.php' );
 
 					} else if ( is_singular( 'dtdsh-lp' ) ) {
 						if ( is_single( 'jiko' ) ) {
@@ -67,7 +71,7 @@ if ( is_archive() || is_single() || is_home() ) {
 						while ( have_posts() ) : the_post();
 							the_content();
 						endwhile;
-						echo '<p class="text-center"><a href="https://www.law-yamashita.com/contact" target="_blank"><img src="', get_template_directory_uri(), '/assets/img/banner_01.jpg" alt="広島の弁護士による労働災害の無料相談"></a></p>';
+						echo '<p class="text-center"><a href="https://www.law-yamashita.com/contact" target="_blank"><img src="', get_template_directory_uri(), '/assets/img/banner_01.png" alt="広島の相続・遺言相談は縮景園駅すぐの山下江法律事務所へ"></a></p>';
 
 
 					} else {

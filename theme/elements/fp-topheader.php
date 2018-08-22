@@ -50,7 +50,7 @@
 				</div>
 			</div>
 			<div class="column small-12 medium-6 copy--top text-center">
-				<h1 class="copy--title">適正な補償を受けるために
+				<h1 class="copy--title">モメない相続のために
 					<br>探しているのは頼れる
 					<ruby>
 						<rb>弁護士</rb>
