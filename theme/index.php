@@ -29,7 +29,7 @@ if ( is_archive() || is_single() || is_home() ) {
 					if ( is_page( 'cases' ) || is_page( 'voice' ) ) {
 						$is_tag = false;
 						$is_type = ( is_page( 'cases' ) ) ? 'cases' : 'voice';
-						$show_cat = ( is_page( 'cases' ) ) ? '258' : '261';
+						$show_cat = ( is_page( 'cases' ) ) ? '90' : '130';
 						include locate_template( './templates/page--cases-voice.php' );
 
 					} else if ( is_page( 'members' ) ) {
