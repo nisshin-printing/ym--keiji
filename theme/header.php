@@ -83,7 +83,7 @@
 						<a href="tel:0120783409">
 							<?php NID_SVG::icon( 'phone', array( 'class' => 'free-call--icon', '電話する' ) ); ?>0120-7834-09</a>
 					</p>
-					<a href="https://www.law-yamashita.com/contact" class="free-call_button button hollow secondary">お問い合わせ</a>
+					<a href="https://www.law-yamashita.com/reserve" class="free-call_button button hollow secondary">Web予約</a>
 				</div>
 			</div>
 			<?php
