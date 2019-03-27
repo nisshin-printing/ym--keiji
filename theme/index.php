@@ -24,12 +24,12 @@ if ( is_archive() || is_single() || is_home() ) {
 			</div>
 			<div class="sidenav--overlay js--sidenav--button"></div>
 			<div class="column contents">
-				<?php
+			<?php
 				if ( have_posts() ) {
 					if ( is_page( 'cases' ) || is_page( 'voice' ) ) {
 						$is_tag = false;
 						$is_type = ( is_page( 'cases' ) ) ? 'cases' : 'voice';
-						$show_cat = ( is_page( 'cases' ) ) ? '90' : '130';
+						$show_cat = ( is_page( 'cases' ) ) ? '94' : '129';
 						include locate_template( './templates/page--cases-voice.php' );
 
 					} else if ( is_page( 'members' ) ) {
@@ -37,10 +37,6 @@ if ( is_archive() || is_single() || is_home() ) {
 
 					} else if ( is_page( 'access' ) ) {
 						$page_id = '281';
-						include locate_template( './templates/page.php' );
-
-					} else if ( is_page( 'firm/dedication' ) ) {
-						$page_id = '360';
 						include locate_template( './templates/page.php' );
 
 					} else if ( is_page( 'firm' ) ) {
@@ -54,24 +50,10 @@ if ( is_archive() || is_single() || is_home() ) {
 						$page_id = '423';
 						include locate_template( './templates/page.php' );
 
-					} else if ( is_page( 'fee' ) ) {
-						$page_id = '3507';
-						include locate_template( './templates/page.php' );
-
-					} else if ( is_page( 'news/column' ) ) {
-						$show_cat = '313';
-						include locate_template( './templates/page--column.php' );
-
-					} else if ( is_singular( 'dtdsh-lp' ) ) {
-						if ( is_single( 'jiko' ) ) {
-							get_template_part( './templates/lp/jiko' );
-						}
-
 					} else if ( is_page() ) {
 						while ( have_posts() ) : the_post();
 							the_content();
 						endwhile;
-						echo '<p class="text-center"><a href="https://www.law-yamashita.com/contact" target="_blank"><img src="', get_template_directory_uri(), '/assets/img/banner_01.png" alt="広島の相続・遺言相談は縮景園駅すぐの山下江法律事務所へ"></a></p>';
 
 
 					} else {
@@ -79,6 +61,8 @@ if ( is_archive() || is_single() || is_home() ) {
 							get_template_part( './templates/content' );
 						endwhile;
 					}
+
+					echo '<p class="text-center"><a href="https://www.law-yamashita.com/contact" target="_blank"><img src="', get_template_directory_uri(), '/assets/img/ImgTop2.jpg" alt="広島の弁護士による、刑事事件のご相談を受け付けています。"></a></p>';
 
 				} else {
 					echo '<h2 class="text-center">記事がありません。</h2>';

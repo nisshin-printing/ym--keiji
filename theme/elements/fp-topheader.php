@@ -50,7 +50,7 @@
 				</div>
 			</div>
 			<div class="column small-12 medium-6 copy--top text-center">
-				<h1 class="copy--title">モメない相続のために
+				<h1 class="copy--title">一刻も早い解決のために
 					<br>探しているのは頼れる
 					<ruby>
 						<rb>弁護士</rb>
@@ -59,11 +59,9 @@
 						</rp>
 					</ruby>。</h1>
 					<div class="copy--desc">
-					<p>相談件数20,000件以上。
+					<p>相談件数400件以上。
 						<small>※</small>
 						<br>選ぶなら広島最大級。
-						<br>個人のお客様なら
-						<strong style="background:yellow;color:red">初回相談無料</strong>
 					</p>
 					<small>※　2018年12月末時点（事務所総数）</small>
 				</div>
@@ -76,13 +74,8 @@
 					<a href="https://www.law-yamashita.com/contact" class="button hollow expanded" title="メールで相談予約" target="_blank">
 						<?php NID_SVG::icon( 'mail', array( 'class' => 'button--icon' ), 'メール' ); ?>メールで相談予約</a>
 				</p>
-				<p class="topheader--button button-group expanded stacked-for-small">
-					<a href="<?php echo get_page_link( '5487' ); ?>" class="button hollow expanded">
-						<?php echo get_the_title( '5487' ); ?>
-					</a>
-					<a href="<?php echo get_page_link( '6070' ); ?>" class="button hollow expanded">
-						<?php echo get_the_title( '6070' ); ?>
-					</a>
+				<p class="topheader--button">
+					<a href="#fp--service" class="button hollow expanded">刑事事件の依頼内容別</a>
 				</p>
 				<p class="topheader--button">
 					<a href="<?php echo home_url(), '/firm/access'; ?>" class="button hollow expanded" title="山下江法律事務所へのアクセス">
