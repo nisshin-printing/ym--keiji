@@ -72,11 +72,11 @@
 		<div class="map--textbox--wrap">
 			<div class="map--textbox">
 				<h3 class="map--title">岩国支部</h3>
-				<p class="map--text indent"><b>住所：</b>〒720-0067 広島県福山市西町2-10-1<br>福山商工会議所ビル５階</p>
+				<p class="map--text indent"><b>住所：</b>〒740-0022 山口県岩国市山手町一丁目16-10<br>山手町ビル402</p>
 				<p class="map--text">岩国市役所前バス停 徒歩１分</p>
 				<p class="map--tel"><b>予約：</b><a href="tel:0120-7834-09">0120-7834-09</a></p>
 				<p class="map--tel"><b>電話：</b><a href="tel:0827-33-3005">0827-33-3005</a></p>
-				<p class="map--button-group"><a href="https://goo.gl/maps/BD1h4PY4Fmr" class="button hollow" target="_blank">Googleマップ</a><a href="https://iwakuni.law-yamashita.com" class="button hollow">サイトを見る</a></p>
+				<p class="map--button-group"><a href="https://goo.gl/maps/7sXdX1NGG322" class="button hollow" target="_blank">Googleマップ</a><a href="https://iwakuni.law-yamashita.com" class="button hollow">サイトを見る</a></p>
 			</div>
 		</div>
 		<iframe frameborder="0" class="lazyload" data-src="//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.1993111615943!2d132.2155759158986!3d34.16682151912936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35453598ed29a1c3%3A0x66641559b897c7e4!2z5byB6K235aOr5rOV5Lq6IOWxseS4i-axn-azleW-i-S6i-WLmeaJgOODu-WyqeWbveaUr-mDqA!5e0!3m2!1sja!2sjp!4v1548481884912" allowfullscreen style="border:0"></iframe>

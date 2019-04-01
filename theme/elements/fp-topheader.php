@@ -59,7 +59,7 @@
 						</rp>
 					</ruby>。</h1>
 					<div class="copy--desc">
-					<p>相談件数400件以上。
+					<p>相談件数20,000件以上。
 						<small>※</small>
 						<br>選ぶなら<strong style="background:yellow;color:red">広島最大級</strong>
 					</p>
